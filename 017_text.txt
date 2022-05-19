@@ -1,0 +1,15 @@
+------------------------
+id            : 1001
+name          : alan
+department    : cse
+college       : muthoot
+total mark    : 180
+status        : pass
+------------------------
+id            : 1002
+name          : basil
+department    : me
+college       : muthoot
+total mark    : 180
+status        : pass
+------------------------

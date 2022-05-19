@@ -2,14 +2,16 @@
 def str_check(str)
   x_count = 0
   o_count = 0
-  str.each_char do |x|
-    if x == "x"
-      x_count +=1
-    end
-    if x == "o"
-      o_count +=1
-    end
-  end
+  x_count = (str.split(//)).count("x")
+  o_count = (str.split(//)).count("o")
+  # str.each_char do |x|
+  #   if x == "x"
+  #     x_count +=1
+  #   end
+  #   if x == "o"
+  #     o_count +=1
+  #   end
+  # end
   # if x_count == 0 && o_count == 0
   #   return "'x' and 'o' not present"
   if x_count == o_count
